@@ -190,7 +190,7 @@ const frameworks = {
   'astro.config.*': [],
   'gatsby-config.*': ['gatsby-browser.*', 'gatsby-node.*', 'gatsby-ssr.*', 'gatsby-transformer.*'],
   'next.config.*': ['next-env.d.ts', 'next-i18next.config.*'],
-  'nuxt.config.*': ['.nuxtignore', '.nuxtrc'],
+  'nuxt.config.*': ['.nuxtignore', '.nuxtrc', 'nuxt.schema.*'],
   'quasar.conf.js': ['quasar.extensions.json'],
   'remix.config.*': ['remix.*'],
   'svelte.config.*': ['mdsvex.config.js', 'vite.config.*', 'houdini.config.*'],
